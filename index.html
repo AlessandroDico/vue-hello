@@ -12,6 +12,13 @@
         <div id="root">
 
             <h1 v-bind:class="myClass"> {{ message }}</h1>
+            <!-- <h1 :class="myClass"> {{ message }}</h1> -->
+
+            <div class="image-container">
+                <img v-bind:src="myImage" alt="">
+            </div>
+
+            <button @click='myFunction' type="button" name="button">change season</button>
 
         </div>
 

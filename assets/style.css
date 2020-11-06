@@ -1,4 +1,39 @@
-.saluto {
-    color: red;
+body {
+    background-color: papayawhip;
+}
+
+.autumn {
+    color: #b65b5b;
     font-size: 40px;
+}
+
+.winter {
+    color: #5f7abc;
+    font-size: 40px;
+}
+
+.spring {
+    color: #bc5fb7;
+    font-size: 40px;
+}
+
+.summer {
+    color: #e8862b;
+    font-size: 40px;
+}
+
+.image-container {
+    height: 400px;
+    width: 500px;
+}
+
+.image-container > img {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    padding: 10px 15px;
+    display: block;
+    margin: 10px auto;
 }
